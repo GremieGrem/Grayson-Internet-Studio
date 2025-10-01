@@ -1,8 +1,38 @@
 /* styles.css */
 body {
-    background-color: rgb(190, 232, 215)
+    background-color:black;
+    padding: 0 20px 20px 20px;
+    margin: 0;
 }
 
-* {
-	font-family: Arial;
+p {
+    color: rgba(21, 193, 52);
+    font-size: 1em;
+    font-family: "Gaegu", sans-serif;
+    text-align: center;
 }
+
+h1, h2 {
+    color: rgba(217, 239, 52);
+    text-align: center;
+    font-family: "Mogra", system-ui;
+}
+
+h3 {
+    color: rgba(16, 140, 102);
+    text-align: center;
+    font-family: "Mogra", system-ui;
+}
+
+ul {
+    color: rgba(16, 140, 102);
+    text-align: center;
+    font-family: "Gaegu", sans-serif;
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
