@@ -1,0 +1,90 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+ h1, h2, h3 {
+  font-family: "Itim", cursive;
+ }
+/*I thought that these two fonts went well together*/
+ #banner {
+  border: 6px dotted gray;
+  top: 60px;
+  width: 500px;
+  margin: 0 auto;
+ }
+
+ img {
+  display: block;
+  margin: auto;
+ }
+ /*I'm more red hat oriented personally. I usually go with whatever
+ feels right to me. I think that emotion is just as important to the
+ process as logic is. Cause if i feel something is wrong during the 
+ process about a decision made, it's going to effect how satisfied
+ i'm going to be with the end product. Even if others think it looks
+ good but i won't really be happy with it cause i know something
+ could be better about it.*/
+
+ #banner .content h1 {
+  font-size: 80px;
+  color: rgba(33, 51, 108);
+  text-align: center;
+  font-weight: 600;
+  /*When picking the colors i stuck to the blues turning to greens.
+  originally i wanted to do corals fading into blue cause they
+  were complementary colors on the color wheel but it jeopardized
+  readability. It also didn't look at good as I had hoped.*/
+ }
+ h2 {
+  font-size: 50px;
+  color: rgba(33, 109, 130);
+  margin-bottom: 3px solid black;
+  border-bottom: 3px solid black;
+  /*I was trying to reference the in class exercise to this
+  by making .main and div sections but it overcomplicated it.
+  I was also overthinking it. It's way more simple than i thought.
+  I'm still trying to wrap my head around div's*/
+
+ }
+ h3 {
+  font-size: 17px;
+  color: rgba(97, 151, 130);
+  text-align: right;
+ }
+
+ p {
+  font-family: "Happy Monkey", system-ui;
+ margin-left: 20px;
+ font-size: 20px;
+ }
+
+ body {
+  background-image: url(images/paisley.webp);
+  background-repeat: repeat;
+ }
+ /*I was trying to prioritize readability for the text
+ in the website so that i could have a cute background
+ but you wouldn't have to strain your eyes to read it*/
+
