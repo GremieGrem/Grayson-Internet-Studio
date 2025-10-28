@@ -1,0 +1,82 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+ /* freeman-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Freeman';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/freeman-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+ /* archivo-narrow-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Archivo Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/archivo-narrow-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+
+ body {
+background-color: #282F44;
+opacity: 1;
+background-image:  linear-gradient(#191D32 0.7000000000000001px, transparent 0.7000000000000001px), linear-gradient(to right, #191D32 0.7000000000000001px, #282F44 0.7000000000000001px);
+background-size: 14px 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+ }
+
+ h1, h3 {
+  font-family: 'Freeman', sans-serif;
+  text-align: center;
+  background-color: #BA2C73;
+  margin: 10px;
+  padding: 5px;
+  color: #191D32;
+ }
+
+ h2 {
+  font-family: 'Freeman', sans-serif;
+  text-align: center;
+  color: #BA2C73; 
+  border-bottom: solid 3px #191D32;
+  border-top: solid 3px #191D32;
+ }
+
+ p {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #BA2C73;
+  padding: 15px;
+ }
