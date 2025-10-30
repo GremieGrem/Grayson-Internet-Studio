@@ -1,0 +1,118 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+ /* texturina-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Texturina';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/texturina-v32-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* uncial-antiqua-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Uncial Antiqua';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/uncial-antiqua-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  font-family: 'Texturina', 'Uncial Antiqua';
+}
+
+body {
+  background-color: black;
+}
+
+.header h1, h2 {
+  font-family: 'Uncial Antiqua';
+  color: white;
+  text-align: center;
+}
+
+h1, h2 {
+  color: white;
+  text-align: center;
+  font-family: 'Uncial Antiqua';
+}
+
+.header {
+  background-color: black;
+  height: 150px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 70px;
+  padding-bottom: 65px;
+}
+
+p {
+  color: white;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+ .container {
+  display: flex;
+  background-color: black;
+  min-height: 125px;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 auto;
+ }
+
+  .homepage, .dining, .contact, .statement {
+  display: flex;
+  max-height: 75px; 
+  background-color: #1f2754;
+  justify-content: center;
+  margin: 0 auto;
+  color: white;
+  width: 200px;
+  border-radius: 10%;
+  }
+
+  a:link {
+    color: white;
+    text-align: center;
+  }
+
+    footer {
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+  }
+
+
+  img {
+    max-height: 550px;
+    display: block;
+    margin: auto;
+  }
+
