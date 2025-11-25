@@ -1,0 +1,75 @@
+/* 
+      .--..--..--..--..--..--.
+    .' \  (`._   (_)     _   \
+  .'    |  '._)         (_)  |
+  \ _.')\      .----..---.   /
+  |(_.'  |    /    .-\-.  \  |
+  \     0|    |   ( O| O) | o|
+   |  _  |  .--.____.'._.-.  |
+   \ (_) | o         -` .-`  |
+    |    \   |`-._ _ _ _ _\ /
+    \    |   |  `. |_||_|   |
+    | o  |    \_      \     |     -.   .-.
+    |.-.  \     `--..-'   O |     `.`-' .'
+  _.'  .' |     `-.-'      /-.__   ' .-'
+.' `-.` '.|='=.='=.='=.='=|._/_ `-'.'
+`-._  `.  |________/\_____|    `-.'
+   .'   ).| '=' '='\/ '=' |
+   `._.`  '---------------'
+           //___\   //___\
+             ||       ||
+             ||_.-.   ||_.-.
+            (_.--__) (_.--__)
+       
+
+ Insert all your glorious CSS styles below! */
+
+ /* bowlby-one-sc-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bowlby One SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/bowlby-one-sc-v27-latin/bowlby-one-sc-v27-latin-regular.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* science-gothic-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Science Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/science-gothic-v5-latin/science-gothic-v5-latin-regular.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+ .grid {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 20px;
+ }
+
+ img {
+  max-height: 300px;
+ }
+
+ .box {
+  border: goldenrod 3px solid;
+  justify-items: center;
+ }
+
+ p {
+  font-family: 'Science Gothic', sans-serif;
+  color: white;
+ }
+
+ h1, h2, h3 {
+  font-family: 'Bowlby One SC', sans-serif;
+  color: yellow;
+ }
+
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(71%2c 14%2c 17%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c157 C 57.6%2c139.2 172.8%2c52.4 288%2c68 C 403.2%2c83.6 460.8%2c231.6 576%2c235 C 691.2%2c238.4 748.8%2c98.8 864%2c85 C 979.2%2c71.2 1036.8%2c174.8 1152%2c166 C 1267.2%2c157.2 1382.4%2c66 1440%2c41L1440 560L0 560z' fill='rgba(126%2c 24%2c 24%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c329 C 96%2c365 288%2c511.2 480%2c509 C 672%2c506.8 768%2c326.4 960%2c318 C 1152%2c309.6 1344%2c437.2 1440%2c467L1440 560L0 560z' fill='rgba(171%2c 34%2c 34%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+
